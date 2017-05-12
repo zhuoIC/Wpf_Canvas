@@ -1,0 +1,12 @@
+﻿<Window x:Class="Wpf_Canvas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Canvas x:Name="cnvColores" HorizontalAlignment="Left" Height="300" Margin="207,10,0,0" VerticalAlignment="Top" Width="300" Background="Yellow">
+            
+        </Canvas>
+        <Button x:Name="btnAnadirContenido" Content="Añadir contenido" HorizontalAlignment="Left" Margin="37,38,0,0" VerticalAlignment="Top" Width="108" Height="22" Click="btnAnadirContenido_Click"/>
+
+    </Grid>
+</Window>
